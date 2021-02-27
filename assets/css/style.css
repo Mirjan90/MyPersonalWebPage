@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Garamond', serif;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    height: auto;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.inner-personal, .inner-contact, .inner-social {
+    padding: 30px;
+}
+
+.inner-personal h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+.inner-line {
+    border-right: 2px solid gray;
+}
+
+.inner-social h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+.inner-contact h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+.social {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+a {
+    color: black;
+}
+
+.container > div {
+    margin: 10px;
+}
+
+.mypic {
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 750px) {
+
+.container {
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+}
